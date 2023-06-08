@@ -1,10 +1,13 @@
 import random
-
+from time import sleep # sleep para esperar um pouco
 ram = random.randint(1, 5)
 
 print(ram)
 
 numero = int(input('Tente advinhar o numero aleatorio entre 1 a 5: '))
+
+print('PROCESSANDO...')
+sleep(3)
 
 if (ram == numero):
 
