@@ -4,7 +4,7 @@
 
 nome = input('Ola, Digite seu nome: ')
 salario = float(input('Informe seu salario: '))
-precoCasa = float(input(f'Legal {nome},agora informe o valor da casa que deseja comprar: '))
+precoCasa = float(input(f'Legal {nome},agora informe o valor da casa que deseja comprar: R$'))
 qtdAnos = int(input('Por quantos anos quer pagar essa casa? '))
 
 maisDeUmAno = qtdAnos >= 1
@@ -20,5 +20,6 @@ if maisDeUmAno:
         print('Emprestimo concedido')
 if limiteEmprestimo:
     print(f'Opa, {nome}, determinamos como em até 30 o numero máximo de financiamento para compra da sua casa..')
-
+else:
+    pass
 

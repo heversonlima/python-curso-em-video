@@ -14,7 +14,7 @@ ganhou = escolha == 'pedra' and botChoose == 'tesoura' \
         or escolha == 'papel' and botChoose == 'pedra' \
         or escolha == 'tesoura' and botChoose == 'papel'
 
-erro = escolha != 'pedra' and escolha != 'papel' and escolha != 'tesoura'
+erro = escolha != 'pedra' != 'papel' != 'tesoura'
         
 if erro:
     print(f'OPA. A palavra "{escolha}" não está escrita corretamente.\nTente novamente')

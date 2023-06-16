@@ -9,7 +9,7 @@ try:
     elif n1 == n2:
         print(f'Opa parece que os numeros são iguais e equivalentes')
     else:
-        print('Algo deu errado, tente novamente')
+        pass
 except:
     print('Algo deu errado, tente com numeros inteiros ou fracionarios')
 
